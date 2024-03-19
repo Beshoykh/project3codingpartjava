@@ -9,8 +9,8 @@ public class T7 {
         System.out.println("Fibonacci Series till " + n + " numbers is");
         for (int i = 1; i <= n;i++) {
             System.out.print(firstNumber+ " ,");
-            // compute the next term
             int nextNumber = firstNumber + secondNumber;
+            // compute the next term
             firstNumber = secondNumber;
             secondNumber = nextNumber;
         }

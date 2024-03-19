@@ -14,7 +14,6 @@ public class T9 {
                 secondLargest = numbers[i];
             }
         } System.out.println("The second Largest number in this array is "+secondLargest);
-
     }
 
 }
